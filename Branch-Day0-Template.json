@@ -1,0 +1,3528 @@
+{
+    "vmanage_device_templates": [
+        {
+            "templateName": "Branch_Day0_Template_C1101-4PLTEPW*",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1101-4PLTEPW",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1111-8PLTEEAW*",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1111-8PLTEEAW",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1111-8PLTELAW*",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1111-8PLTELAW",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121-8PLTEPW*",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121-8PLTEPW",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121X-8P",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121X-8P",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121X-8PLTEP",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121X-8PLTEP",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121X-8PLTEPW*",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121X-8PLTEPW",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121-4PLTEP",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121-4PLTEP",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_C1121-8PLTEP",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-C1121-8PLTEP",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_ISR1100-4G-XE",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-ISR1100-4G-XE",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_ISR1100-4GLTENA-XE",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-ISR1100-4GLTENA-XE",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_ISR1100-4GLTEGB-XE",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-ISR1100-4GLTEGB-XE",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        },
+        {
+            "templateName": "Branch_Day0_Template_ISR1100X-4G-XE",
+            "templateDescription": "Branch with 2 TLOC Interfaces",
+            "deviceType": "vedge-ISR1100X-4G-XE",
+            "factoryDefault": false,
+            "configType": "template",
+            "featureTemplateUidRange": [],
+            "policyId": "",
+            "securityPolicyId": "",
+            "templateClass": "cedge",
+            "deviceRole": "sdwan-edge",
+            "generalTemplates": [
+                {
+                    "templateName": "Factory_Default_AAA_CISCO_Template",
+                    "templateType": "cedge_aaa"
+                },
+                {
+                    "templateName": "Default_BFD_Cisco_V01",
+                    "templateType": "cisco_bfd"
+                },
+                {
+                    "templateName": "Factory_Default_Cisco_OMP_ipv46_Template",
+                    "templateType": "cisco_omp"
+                },
+                {
+                    "templateName": "Default_Security_Cisco_V01",
+                    "templateType": "cisco_security"
+                },
+                {
+                    "templateName": "Default_System_Cisco_V01",
+                    "templateType": "cisco_system",
+                    "subTemplates": [
+                        {
+                            "templateName": "Default_Logging_Cisco_V01",
+                            "templateType": "cisco_logging"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN0",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN0_Public_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        },
+                        {
+                            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_VPN512",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_VPN512_Management_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN10",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN10_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Branch_Service_VPN20",
+                    "templateType": "cisco_vpn",
+                    "subTemplates": [
+                        {
+                            "templateName": "Branch_Service_VPN20_Interface",
+                            "templateType": "cisco_vpn_interface"
+                        }
+                    ]
+                },
+                {
+                    "templateName": "Factory_Default_Global_CISCO_Template",
+                    "templateType": "cedge_global"
+                }
+            ]
+        }
+    ],
+    "vmanage_feature_templates": [
+        {
+            "templateId": "d0a6411d-0fc6-4375-93a1-87b1f26c90cc",
+            "templateName": "Branch_Service_VPN20_Interface",
+            "templateDescription": "Branch_Service_VPN20_Interface",
+            "templateType": "cisco_vpn_interface",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064838897,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064838897,
+            "templateDefinition": {
+                "if-name": {
+                    "vipObjectType": "object",
+                    "vipType": "variableName",
+                    "vipValue": "",
+                    "vipVariableName": "Branch_Service_VPN20_Interface"
+                },
+                "description": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_description"
+                },
+                "ip": {
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "variableName",
+                        "vipValue": "",
+                        "vipVariableName": "Branch_Service_VPN20_Interface_IP_Address"
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "dhcp-helper": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_dhcp_helper"
+                },
+                "flow-control": {},
+                "clear-dont-fragment": {},
+                "pmtu": {},
+                "mtu": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1500,
+                    "vipVariableName": "vpn_if_ip_mtu"
+                },
+                "static-ingress-qos": {},
+                "tcp-mss-adjust": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tcp_mss_adjust"
+                },
+                "mac-address": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_mac_address"
+                },
+                "speed": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_speed"
+                },
+                "duplex": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_duplex"
+                },
+                "shutdown": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_shutdown"
+                },
+                "arp-timeout": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1200,
+                    "vipVariableName": "vpn_if_arp_timeout"
+                },
+                "autonegotiate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_autonegotiate"
+                },
+                "shaping-rate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "rewrite_shaping_rate"
+                },
+                "qos-map": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "qos_map"
+                },
+                "tracker": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tracker"
+                },
+                "bandwidth-upstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_upstream"
+                },
+                "bandwidth-downstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_downstream"
+                },
+                "block-non-source-ip": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_block_non_source_ip"
+                },
+                "rewrite-rule": {
+                    "rule-name": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "rewrite_rule_name"
+                    }
+                },
+                "tloc-extension": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tloc_extension"
+                },
+                "load-interval": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 30,
+                    "vipVariableName": "vpn_if_load_interval"
+                },
+                "icmp-redirect-disable": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_icmp_redirect_disable"
+                },
+                "tloc-extension-gre-from": {
+                    "src-ip": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_src_ip"
+                    },
+                    "xconnect": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_xconnect"
+                    }
+                },
+                "access-list": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "direction"
+                    ]
+                },
+                "intrf-mtu": {},
+                "ip-directed-broadcast": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_ip-directed-broadcast"
+                },
+                "ipv6": {
+                    "access-list": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "direction"
+                        ]
+                    },
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "",
+                        "vipVariableName": "vpn_if_ipv6_ipv6_address"
+                    },
+                    "dhcp-helper-v6": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "arp": {
+                    "ip": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "addr"
+                        ]
+                    }
+                },
+                "vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                },
+                "ipv6-vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                }
+            }
+        },
+        {
+            "templateId": "c49b212a-a2ff-42be-93e3-46ea23cc704e",
+            "templateName": "Branch_VPN0_Biz_Internet_Interface",
+            "templateDescription": "Branch_VPN0_Biz_Internet_Interface",
+            "templateType": "cisco_vpn_interface",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839224,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839224,
+            "templateDefinition": {
+                "if-name": {
+                    "vipObjectType": "object",
+                    "vipType": "variableName",
+                    "vipValue": "",
+                    "vipVariableName": "Branch_VPN0_Biz_Internet_Interface"
+                },
+                "description": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_description"
+                },
+                "ip": {
+                    "dhcp-client": {
+                        "vipObjectType": "object",
+                        "vipType": "constant",
+                        "vipValue": "true"
+                    },
+                    "dhcp-distance": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1,
+                        "vipVariableName": "vpn_if_ipv4_dhcp_distance"
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "dhcp-helper": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_dhcp_helper"
+                },
+                "flow-control": {},
+                "clear-dont-fragment": {},
+                "pmtu": {},
+                "mtu": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1500,
+                    "vipVariableName": "vpn_if_ip_mtu"
+                },
+                "static-ingress-qos": {},
+                "tcp-mss-adjust": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tcp_mss_adjust"
+                },
+                "mac-address": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_mac_address"
+                },
+                "speed": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_speed"
+                },
+                "duplex": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_duplex"
+                },
+                "shutdown": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_shutdown"
+                },
+                "arp-timeout": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1200,
+                    "vipVariableName": "vpn_if_arp_timeout"
+                },
+                "autonegotiate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_autonegotiate"
+                },
+                "shaping-rate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "rewrite_shaping_rate"
+                },
+                "qos-map": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "qos_map"
+                },
+                "tracker": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tracker"
+                },
+                "bandwidth-upstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_upstream"
+                },
+                "bandwidth-downstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_downstream"
+                },
+                "block-non-source-ip": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_block_non_source_ip"
+                },
+                "rewrite-rule": {
+                    "rule-name": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "rewrite_rule_name"
+                    }
+                },
+                "tloc-extension": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tloc_extension"
+                },
+                "load-interval": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 30,
+                    "vipVariableName": "vpn_if_load_interval"
+                },
+                "icmp-redirect-disable": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_icmp_redirect_disable"
+                },
+                "tloc-extension-gre-from": {
+                    "src-ip": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_src_ip"
+                    },
+                    "xconnect": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_xconnect"
+                    }
+                },
+                "access-list": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "direction"
+                    ]
+                },
+                "tunnel-interface": {
+                    "encapsulation": {
+                        "vipType": "constant",
+                        "vipValue": [
+                            {
+                                "preference": {
+                                    "vipObjectType": "object",
+                                    "vipType": "ignore",
+                                    "vipVariableName": "vpn_if_tunnel_ipsec_preference"
+                                },
+                                "weight": {
+                                    "vipObjectType": "object",
+                                    "vipType": "ignore",
+                                    "vipValue": 1,
+                                    "vipVariableName": "vpn_if_tunnel_ipsec_weight"
+                                },
+                                "encap": {
+                                    "vipType": "constant",
+                                    "vipValue": "ipsec",
+                                    "vipObjectType": "object"
+                                },
+                                "priority-order": [
+                                    "encap",
+                                    "preference",
+                                    "weight"
+                                ]
+                            }
+                        ],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "encap"
+                        ]
+                    },
+                    "group": {
+                        "vipObjectType": "list",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_group"
+                    },
+                    "border": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_border"
+                    },
+                    "color": {
+                        "value": {
+                            "vipObjectType": "object",
+                            "vipType": "constant",
+                            "vipValue": "biz-internet",
+                            "vipVariableName": "vpn_if_tunnel_color_value"
+                        },
+                        "restrict": {
+                            "vipObjectType": "node-only",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_color_restrict"
+                        }
+                    },
+                    "carrier": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "default",
+                        "vipVariableName": "vpn_if_tunnel_carrier"
+                    },
+                    "bind": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_bind"
+                    },
+                    "allow-service": {
+                        "dhcp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_dhcp"
+                        },
+                        "dns": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_dns"
+                        },
+                        "icmp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_icmp"
+                        },
+                        "sshd": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_sshd"
+                        },
+                        "ntp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_ntp"
+                        },
+                        "stun": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_stun"
+                        },
+                        "all": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_all"
+                        },
+                        "bgp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_bgp"
+                        },
+                        "ospf": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_ospf"
+                        },
+                        "netconf": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_netconf"
+                        },
+                        "snmp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_snmp"
+                        },
+                        "https": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_https"
+                        }
+                    },
+                    "max-control-connections": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_max_control_connections"
+                    },
+                    "vbond-as-stun-server": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_vbond_as_stun_server"
+                    },
+                    "exclude-controller-group-list": {
+                        "vipObjectType": "list",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_exclude_controller_group_list"
+                    },
+                    "vmanage-connection-preference": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 5,
+                        "vipVariableName": "vpn_if_tunnel_vmanage_connection_preference"
+                    },
+                    "port-hop": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "true",
+                        "vipVariableName": "vpn_if_tunnel_port_hop"
+                    },
+                    "low-bandwidth-link": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_low_bandwidth_link"
+                    },
+                    "last-resort-circuit": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_last_resort_circuit"
+                    },
+                    "nat-refresh-interval": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 5,
+                        "vipVariableName": "vpn_if_tunnel_nat_refresh_interval"
+                    },
+                    "hello-interval": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1000,
+                        "vipVariableName": "vpn_if_tunnel_hello_interval"
+                    },
+                    "hello-tolerance": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 12,
+                        "vipVariableName": "vpn_if_tunnel_hello_tolerance"
+                    },
+                    "tloc-extension-gre-to": {
+                        "dst-ip": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipVariableName": "vpn_if_tunnel_tloc_ext_gre_to_dst_ip"
+                        }
+                    }
+                },
+                "intrf-mtu": {},
+                "ip-directed-broadcast": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_ip-directed-broadcast"
+                },
+                "ipv6": {
+                    "access-list": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "direction"
+                        ]
+                    },
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "",
+                        "vipVariableName": "vpn_if_ipv6_ipv6_address"
+                    },
+                    "dhcp-helper-v6": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "nat": {
+                    "udp-timeout": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1,
+                        "vipVariableName": "nat_udp_timeout"
+                    },
+                    "tcp-timeout": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 60,
+                        "vipVariableName": "nat_tcp_timeout"
+                    },
+                    "natpool": {},
+                    "nat-choice": {
+                        "vipObjectType": "object",
+                        "vipType": "constant",
+                        "vipValue": "interface",
+                        "vipVariableName": "nat-type"
+                    },
+                    "overload": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "true"
+                    },
+                    "interface": {
+                        "loopback-interface": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore"
+                        }
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "arp": {
+                    "ip": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "addr"
+                        ]
+                    }
+                },
+                "vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                },
+                "ipv6-vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                }
+            }
+        },
+        {
+            "templateId": "7a5ae4a6-c7da-4e86-a475-ad4e101006bd",
+            "templateName": "Branch_Service_VPN20",
+            "templateDescription": "Branch_Service_VPN20",
+            "templateType": "cisco_vpn",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839014,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839014,
+            "templateDefinition": {
+                "vpn-id": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": 20
+                },
+                "name": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_name"
+                },
+                "ecmp-hash-key": {
+                    "layer4": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_layer4"
+                    }
+                },
+                "nat64-global": {
+                    "prefix": {
+                        "stateful": {}
+                    }
+                },
+                "nat64": {
+                    "v4": {
+                        "pool": {
+                            "vipType": "ignore",
+                            "vipValue": [],
+                            "vipObjectType": "tree",
+                            "vipPrimaryKey": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "nat": {
+                    "natpool": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "name"
+                        ]
+                    },
+                    "port-forward": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-port",
+                            "translate-port"
+                        ]
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "route-import": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "route-export": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "host": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "hostname"
+                    ]
+                },
+                "service": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "svc-type"
+                    ]
+                },
+                "ip": {
+                    "route": {
+                        "vipType": "constant",
+                        "vipValue": [
+                            {
+                                "prefix": {
+                                    "vipObjectType": "object",
+                                    "vipType": "constant",
+                                    "vipValue": "0.0.0.0/0",
+                                    "vipVariableName": "vpn_ipv4_ip_prefix"
+                                },
+                                "vpn": {
+                                    "vipType": "constant",
+                                    "vipObjectType": "object",
+                                    "vipValue": 0
+                                },
+                                "priority-order": [
+                                    "prefix",
+                                    "vpn"
+                                ]
+                            }
+                        ],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "prefix"
+                        ]
+                    },
+                    "gre-route": {},
+                    "ipsec-route": {},
+                    "service-route": {}
+                },
+                "ipv6": {},
+                "omp": {
+                    "advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    },
+                    "ipv6-advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "templateId": "e6ff9d80-a368-4961-9559-4976ece68ca3",
+            "templateName": "Branch_Service_VPN10",
+            "templateDescription": "Branch_Service_VPN10",
+            "templateType": "cisco_vpn",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064838786,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064838786,
+            "templateDefinition": {
+                "vpn-id": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": 10
+                },
+                "name": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_name"
+                },
+                "ecmp-hash-key": {
+                    "layer4": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_layer4"
+                    }
+                },
+                "nat64-global": {
+                    "prefix": {
+                        "stateful": {}
+                    }
+                },
+                "nat64": {
+                    "v4": {
+                        "pool": {
+                            "vipType": "ignore",
+                            "vipValue": [],
+                            "vipObjectType": "tree",
+                            "vipPrimaryKey": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "nat": {
+                    "natpool": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "name"
+                        ]
+                    },
+                    "port-forward": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-port",
+                            "translate-port"
+                        ]
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "route-import": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "route-export": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "host": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "hostname"
+                    ]
+                },
+                "service": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "svc-type"
+                    ]
+                },
+                "ip": {
+                    "gre-route": {},
+                    "ipsec-route": {},
+                    "service-route": {}
+                },
+                "ipv6": {},
+                "omp": {
+                    "advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    },
+                    "ipv6-advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "templateId": "549a56e4-130f-492e-ae87-24ecd6903dc4",
+            "templateName": "Branch_VPN0",
+            "templateDescription": "Branch_VPN0",
+            "templateType": "cisco_vpn",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839121,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839121,
+            "templateDefinition": {
+                "vpn-id": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": 0
+                },
+                "name": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_name"
+                },
+                "ecmp-hash-key": {
+                    "layer4": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_layer4"
+                    }
+                },
+                "nat64-global": {
+                    "prefix": {
+                        "stateful": {}
+                    }
+                },
+                "nat64": {
+                    "v4": {
+                        "pool": {
+                            "vipType": "ignore",
+                            "vipValue": [],
+                            "vipObjectType": "tree",
+                            "vipPrimaryKey": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "nat": {
+                    "natpool": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "name"
+                        ]
+                    },
+                    "port-forward": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-port",
+                            "translate-port"
+                        ]
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "route-import": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "route-export": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "dns": {
+                    "vipType": "constant",
+                    "vipValue": [
+                        {
+                            "role": {
+                                "vipType": "constant",
+                                "vipValue": "primary",
+                                "vipObjectType": "object"
+                            },
+                            "dns-addr": {
+                                "vipType": "variableName",
+                                "vipValue": "",
+                                "vipObjectType": "object",
+                                "vipVariableName": "Branch_DNS_Primary"
+                            },
+                            "priority-order": [
+                                "dns-addr",
+                                "role"
+                            ]
+                        }
+                    ],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "dns-addr"
+                    ]
+                },
+                "host": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "hostname"
+                    ]
+                },
+                "service": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "svc-type"
+                    ]
+                },
+                "ip": {
+                    "gre-route": {},
+                    "ipsec-route": {},
+                    "service-route": {}
+                },
+                "ipv6": {},
+                "omp": {
+                    "advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    },
+                    "ipv6-advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "templateId": "8756e500-029e-427b-9176-ad9a5e1d8c65",
+            "templateName": "Branch_VPN512",
+            "templateDescription": "Branch_VPN512",
+            "templateType": "cisco_vpn",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839331,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839331,
+            "templateDefinition": {
+                "vpn-id": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": 512
+                },
+                "name": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_name"
+                },
+                "ecmp-hash-key": {
+                    "layer4": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_layer4"
+                    }
+                },
+                "nat64-global": {
+                    "prefix": {
+                        "stateful": {}
+                    }
+                },
+                "nat64": {
+                    "v4": {
+                        "pool": {
+                            "vipType": "ignore",
+                            "vipValue": [],
+                            "vipObjectType": "tree",
+                            "vipPrimaryKey": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "nat": {
+                    "natpool": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "name"
+                        ]
+                    },
+                    "port-forward": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-port",
+                            "translate-port"
+                        ]
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "route-import": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "route-export": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "protocol"
+                    ]
+                },
+                "host": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "hostname"
+                    ]
+                },
+                "service": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "svc-type"
+                    ]
+                },
+                "ip": {
+                    "route": {
+                        "vipType": "constant",
+                        "vipValue": [
+                            {
+                                "prefix": {
+                                    "vipObjectType": "object",
+                                    "vipType": "constant",
+                                    "vipValue": "0.0.0.0/0",
+                                    "vipVariableName": "vpn_ipv4_ip_prefix"
+                                },
+                                "next-hop": {
+                                    "vipType": "constant",
+                                    "vipValue": [
+                                        {
+                                            "address": {
+                                                "vipObjectType": "object",
+                                                "vipType": "variableName",
+                                                "vipValue": "",
+                                                "vipVariableName": "Branch_VPN512_Default_Next_Hop"
+                                            },
+                                            "distance": {
+                                                "vipObjectType": "object",
+                                                "vipType": "ignore",
+                                                "vipValue": 1,
+                                                "vipVariableName": "vpn_next_hop_ip_distance_0"
+                                            },
+                                            "priority-order": [
+                                                "address",
+                                                "distance"
+                                            ]
+                                        }
+                                    ],
+                                    "vipObjectType": "tree",
+                                    "vipPrimaryKey": [
+                                        "address"
+                                    ]
+                                },
+                                "priority-order": [
+                                    "prefix",
+                                    "next-hop",
+                                    "next-hop-with-track"
+                                ]
+                            }
+                        ],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "prefix"
+                        ]
+                    },
+                    "gre-route": {},
+                    "ipsec-route": {},
+                    "service-route": {}
+                },
+                "ipv6": {},
+                "omp": {
+                    "advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    },
+                    "ipv6-advertise": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "protocol"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "templateId": "2d124585-0fc8-453f-9116-9fca4870947f",
+            "templateName": "Branch_VPN512_Management_Interface",
+            "templateDescription": "Branch_VPN512_Management_Interface",
+            "templateType": "cisco_vpn_interface",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839434,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839434,
+            "templateDefinition": {
+                "if-name": {
+                    "vipObjectType": "object",
+                    "vipType": "variableName",
+                    "vipValue": "",
+                    "vipVariableName": "Branch_VPN512_Management_Interface"
+                },
+                "description": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_description"
+                },
+                "ip": {
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "variableName",
+                        "vipValue": "",
+                        "vipVariableName": "Branch_VPN512_Management_Interface_IP_address"
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "dhcp-helper": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_dhcp_helper"
+                },
+                "flow-control": {},
+                "clear-dont-fragment": {},
+                "pmtu": {},
+                "mtu": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1500,
+                    "vipVariableName": "vpn_if_ip_mtu"
+                },
+                "static-ingress-qos": {},
+                "tcp-mss-adjust": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tcp_mss_adjust"
+                },
+                "mac-address": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_mac_address"
+                },
+                "speed": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_speed"
+                },
+                "duplex": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_duplex"
+                },
+                "shutdown": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_shutdown"
+                },
+                "arp-timeout": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1200,
+                    "vipVariableName": "vpn_if_arp_timeout"
+                },
+                "autonegotiate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_autonegotiate"
+                },
+                "shaping-rate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "rewrite_shaping_rate"
+                },
+                "qos-map": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "qos_map"
+                },
+                "tracker": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tracker"
+                },
+                "bandwidth-upstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_upstream"
+                },
+                "bandwidth-downstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_downstream"
+                },
+                "block-non-source-ip": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_block_non_source_ip"
+                },
+                "rewrite-rule": {
+                    "rule-name": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "rewrite_rule_name"
+                    }
+                },
+                "tloc-extension": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tloc_extension"
+                },
+                "load-interval": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 30,
+                    "vipVariableName": "vpn_if_load_interval"
+                },
+                "icmp-redirect-disable": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_icmp_redirect_disable"
+                },
+                "tloc-extension-gre-from": {
+                    "src-ip": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_src_ip"
+                    },
+                    "xconnect": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_xconnect"
+                    }
+                },
+                "access-list": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "direction"
+                    ]
+                },
+                "intrf-mtu": {},
+                "ip-directed-broadcast": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_ip-directed-broadcast"
+                },
+                "ipv6": {
+                    "access-list": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "direction"
+                        ]
+                    },
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "",
+                        "vipVariableName": "vpn_if_ipv6_ipv6_address"
+                    },
+                    "dhcp-helper-v6": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "arp": {
+                    "ip": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "addr"
+                        ]
+                    }
+                },
+                "vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                },
+                "ipv6-vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                }
+            }
+        },
+        {
+            "templateId": "8d5351e9-408c-4048-a42f-15578d19c4bb",
+            "templateName": "Branch_VPN0_Public_Internet_Interface",
+            "templateDescription": "Branch_VPN0_Public_Internet_Interface",
+            "templateType": "cisco_vpn_interface",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839561,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839561,
+            "templateDefinition": {
+                "if-name": {
+                    "vipObjectType": "object",
+                    "vipType": "variableName",
+                    "vipValue": "",
+                    "vipVariableName": "Branch_VPN0_Public_Internet_Interface"
+                },
+                "description": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "",
+                    "vipVariableName": "vpn_if_description"
+                },
+                "ip": {
+                    "dhcp-client": {
+                        "vipObjectType": "object",
+                        "vipType": "constant",
+                        "vipValue": "true"
+                    },
+                    "dhcp-distance": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1,
+                        "vipVariableName": "vpn_if_ipv4_dhcp_distance"
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "dhcp-helper": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_dhcp_helper"
+                },
+                "flow-control": {},
+                "clear-dont-fragment": {},
+                "pmtu": {},
+                "mtu": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1500,
+                    "vipVariableName": "vpn_if_ip_mtu"
+                },
+                "static-ingress-qos": {},
+                "tcp-mss-adjust": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tcp_mss_adjust"
+                },
+                "mac-address": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_mac_address"
+                },
+                "speed": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_speed"
+                },
+                "duplex": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_duplex"
+                },
+                "shutdown": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_shutdown"
+                },
+                "arp-timeout": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1200,
+                    "vipVariableName": "vpn_if_arp_timeout"
+                },
+                "autonegotiate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_autonegotiate"
+                },
+                "shaping-rate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "rewrite_shaping_rate"
+                },
+                "qos-map": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "qos_map"
+                },
+                "tracker": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tracker"
+                },
+                "bandwidth-upstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_upstream"
+                },
+                "bandwidth-downstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_downstream"
+                },
+                "block-non-source-ip": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_block_non_source_ip"
+                },
+                "rewrite-rule": {
+                    "rule-name": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "rewrite_rule_name"
+                    }
+                },
+                "tloc-extension": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tloc_extension"
+                },
+                "load-interval": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 30,
+                    "vipVariableName": "vpn_if_load_interval"
+                },
+                "icmp-redirect-disable": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_icmp_redirect_disable"
+                },
+                "tloc-extension-gre-from": {
+                    "src-ip": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_src_ip"
+                    },
+                    "xconnect": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_xconnect"
+                    }
+                },
+                "access-list": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "direction"
+                    ]
+                },
+                "tunnel-interface": {
+                    "encapsulation": {
+                        "vipType": "constant",
+                        "vipValue": [
+                            {
+                                "preference": {
+                                    "vipObjectType": "object",
+                                    "vipType": "ignore",
+                                    "vipVariableName": "vpn_if_tunnel_ipsec_preference"
+                                },
+                                "weight": {
+                                    "vipObjectType": "object",
+                                    "vipType": "ignore",
+                                    "vipValue": 1,
+                                    "vipVariableName": "vpn_if_tunnel_ipsec_weight"
+                                },
+                                "encap": {
+                                    "vipType": "constant",
+                                    "vipValue": "ipsec",
+                                    "vipObjectType": "object"
+                                },
+                                "priority-order": [
+                                    "encap",
+                                    "preference",
+                                    "weight"
+                                ]
+                            }
+                        ],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "encap"
+                        ]
+                    },
+                    "group": {
+                        "vipObjectType": "list",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_group"
+                    },
+                    "border": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_border"
+                    },
+                    "color": {
+                        "value": {
+                            "vipObjectType": "object",
+                            "vipType": "constant",
+                            "vipValue": "public-internet",
+                            "vipVariableName": "vpn_if_tunnel_color_value"
+                        },
+                        "restrict": {
+                            "vipObjectType": "node-only",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_color_restrict"
+                        }
+                    },
+                    "carrier": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "default",
+                        "vipVariableName": "vpn_if_tunnel_carrier"
+                    },
+                    "bind": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_bind"
+                    },
+                    "allow-service": {
+                        "dhcp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_dhcp"
+                        },
+                        "dns": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_dns"
+                        },
+                        "icmp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_icmp"
+                        },
+                        "sshd": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_sshd"
+                        },
+                        "ntp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_ntp"
+                        },
+                        "stun": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_stun"
+                        },
+                        "all": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_all"
+                        },
+                        "bgp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_bgp"
+                        },
+                        "ospf": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_ospf"
+                        },
+                        "netconf": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_netconf"
+                        },
+                        "snmp": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "false",
+                            "vipVariableName": "vpn_if_tunnel_snmp"
+                        },
+                        "https": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipValue": "true",
+                            "vipVariableName": "vpn_if_tunnel_https"
+                        }
+                    },
+                    "max-control-connections": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_max_control_connections"
+                    },
+                    "vbond-as-stun-server": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_vbond_as_stun_server"
+                    },
+                    "exclude-controller-group-list": {
+                        "vipObjectType": "list",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tunnel_exclude_controller_group_list"
+                    },
+                    "vmanage-connection-preference": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 5,
+                        "vipVariableName": "vpn_if_tunnel_vmanage_connection_preference"
+                    },
+                    "port-hop": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "true",
+                        "vipVariableName": "vpn_if_tunnel_port_hop"
+                    },
+                    "low-bandwidth-link": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_low_bandwidth_link"
+                    },
+                    "last-resort-circuit": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "false",
+                        "vipVariableName": "vpn_if_tunnel_last_resort_circuit"
+                    },
+                    "nat-refresh-interval": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 5,
+                        "vipVariableName": "vpn_if_tunnel_nat_refresh_interval"
+                    },
+                    "hello-interval": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1000,
+                        "vipVariableName": "vpn_if_tunnel_hello_interval"
+                    },
+                    "hello-tolerance": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 12,
+                        "vipVariableName": "vpn_if_tunnel_hello_tolerance"
+                    },
+                    "tloc-extension-gre-to": {
+                        "dst-ip": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore",
+                            "vipVariableName": "vpn_if_tunnel_tloc_ext_gre_to_dst_ip"
+                        }
+                    }
+                },
+                "intrf-mtu": {},
+                "ip-directed-broadcast": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_ip-directed-broadcast"
+                },
+                "ipv6": {
+                    "access-list": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "direction"
+                        ]
+                    },
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "",
+                        "vipVariableName": "vpn_if_ipv6_ipv6_address"
+                    },
+                    "dhcp-helper-v6": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "nat": {
+                    "udp-timeout": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 1,
+                        "vipVariableName": "nat_udp_timeout"
+                    },
+                    "tcp-timeout": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": 60,
+                        "vipVariableName": "nat_tcp_timeout"
+                    },
+                    "natpool": {},
+                    "nat-choice": {
+                        "vipObjectType": "object",
+                        "vipType": "constant",
+                        "vipValue": "interface",
+                        "vipVariableName": "nat-type"
+                    },
+                    "overload": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "true"
+                    },
+                    "interface": {
+                        "loopback-interface": {
+                            "vipObjectType": "object",
+                            "vipType": "ignore"
+                        }
+                    },
+                    "static": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "source-ip",
+                            "translate-ip"
+                        ]
+                    }
+                },
+                "arp": {
+                    "ip": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "addr"
+                        ]
+                    }
+                },
+                "vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                },
+                "ipv6-vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                }
+            }
+        },
+        {
+            "templateId": "70d00a22-e034-4b0a-84ee-327c4465b0a5",
+            "templateName": "Branch_Service_VPN10_Interface",
+            "templateDescription": "Branch_Service_VPN10_Interface",
+            "templateType": "cisco_vpn_interface",
+            "deviceType": [
+                "vedge-C1101-4PLTEPW", "vedge-C1111-8PLTEEAW", "vedge-C1111-8PLTELAW", "vedge-C1121-8PLTEPW", "vedge-C1121X-8P", "vedge-C1121X-8PLTEP", "vedge-C1121X-8PLTEPW", "vedge-C1121-4PLTEP", "vedge-C1121-8PLTEP", "vedge-ISR1100-4G-XE", "vedge-ISR1100-4GLTENA-XE", "vedge-ISR1100-4GLTEGB-XE", "vedge-ISR1100X-4G-XE"
+            ],
+            "lastUpdatedBy": "admin",
+            "lastUpdatedOn": 1612064839659,
+            "factoryDefault": false,
+            "devicesAttached": 0,
+            "attachedMastersCount": 1,
+            "templateMinVersion": "15.0.0",
+            "configType": "xml",
+            "createdBy": "admin",
+            "createdOn": 1612064839659,
+            "templateDefinition": {
+                "if-name": {
+                    "vipObjectType": "object",
+                    "vipType": "variableName",
+                    "vipValue": "",
+                    "vipVariableName": "Branch_Service_VPN10_Interface"
+                },
+                "description": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_description"
+                },
+                "ip": {
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "variableName",
+                        "vipValue": "",
+                        "vipVariableName": "Branch_Service_VPN10_Interface_IP_Address"
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "dhcp-helper": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_dhcp_helper"
+                },
+                "flow-control": {},
+                "clear-dont-fragment": {},
+                "pmtu": {},
+                "mtu": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1500,
+                    "vipVariableName": "vpn_if_ip_mtu"
+                },
+                "static-ingress-qos": {},
+                "tcp-mss-adjust": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tcp_mss_adjust"
+                },
+                "mac-address": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_mac_address"
+                },
+                "speed": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_speed"
+                },
+                "duplex": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "_empty",
+                    "vipVariableName": "vpn_if_duplex"
+                },
+                "shutdown": {
+                    "vipObjectType": "object",
+                    "vipType": "constant",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_shutdown"
+                },
+                "arp-timeout": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 1200,
+                    "vipVariableName": "vpn_if_arp_timeout"
+                },
+                "autonegotiate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_autonegotiate"
+                },
+                "shaping-rate": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "rewrite_shaping_rate"
+                },
+                "qos-map": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "qos_map"
+                },
+                "tracker": {
+                    "vipObjectType": "list",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tracker"
+                },
+                "bandwidth-upstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_upstream"
+                },
+                "bandwidth-downstream": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_bandwidth_downstream"
+                },
+                "block-non-source-ip": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_block_non_source_ip"
+                },
+                "rewrite-rule": {
+                    "rule-name": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "rewrite_rule_name"
+                    }
+                },
+                "tloc-extension": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipVariableName": "vpn_if_tloc_extension"
+                },
+                "load-interval": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": 30,
+                    "vipVariableName": "vpn_if_load_interval"
+                },
+                "icmp-redirect-disable": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "true",
+                    "vipVariableName": "vpn_if_icmp_redirect_disable"
+                },
+                "tloc-extension-gre-from": {
+                    "src-ip": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_src_ip"
+                    },
+                    "xconnect": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipVariableName": "vpn_if_tloc-ext_gre_from_xconnect"
+                    }
+                },
+                "access-list": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "direction"
+                    ]
+                },
+                "intrf-mtu": {},
+                "ip-directed-broadcast": {
+                    "vipObjectType": "object",
+                    "vipType": "ignore",
+                    "vipValue": "false",
+                    "vipVariableName": "vpn_if_ip-directed-broadcast"
+                },
+                "ipv6": {
+                    "access-list": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "direction"
+                        ]
+                    },
+                    "address": {
+                        "vipObjectType": "object",
+                        "vipType": "ignore",
+                        "vipValue": "",
+                        "vipVariableName": "vpn_if_ipv6_ipv6_address"
+                    },
+                    "dhcp-helper-v6": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    },
+                    "secondary-address": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "address"
+                        ]
+                    }
+                },
+                "arp": {
+                    "ip": {
+                        "vipType": "ignore",
+                        "vipValue": [],
+                        "vipObjectType": "tree",
+                        "vipPrimaryKey": [
+                            "addr"
+                        ]
+                    }
+                },
+                "vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                },
+                "ipv6-vrrp": {
+                    "vipType": "ignore",
+                    "vipValue": [],
+                    "vipObjectType": "tree",
+                    "vipPrimaryKey": [
+                        "grp-id"
+                    ]
+                }
+            }
+        }
+    ]
+}
